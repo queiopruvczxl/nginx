@@ -4,7 +4,7 @@ FROM caseycui/ubuntu-sshd
 # 维护者
 LABEL maintainer="CaseyCui cuikaidong@foxmail.com"
 
-# 安装 nginx, 设置 nginx 以非 daemon 启动
+# 安装 nginx
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
         nginx \
