@@ -12,7 +12,6 @@ RUN apt-get update \
         fcgiwrap \
         ssl-cert \
     && rm -rf /var/lib/apt/lists/* \
-    && echo -e "\ndaemon off;" >> /etc/nginx/nginx.conf \
     && chown -R www-data:www-data /var/lib/nginx
 
 # 添加脚本，并设置权限
