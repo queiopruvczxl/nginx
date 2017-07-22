@@ -1,5 +1,5 @@
 # 设置继承自己创建的 sshd 镜像
-FROM ubuntu-sshd
+FROM caseycui/ubuntu-sshd
 
 # 维护者
 LABEL maintainer="CaseyCui cuikaidong@foxmail.com"
